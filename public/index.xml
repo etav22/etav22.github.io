@@ -6,7 +6,14 @@
     <description>Recent content on Elias&#39; Site</description>
     <generator>Hugo -- 0.126.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 May 2024 18:58:17 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/blog/my-first-post/</link>
+      <pubDate>Fri, 17 May 2024 18:58:17 -0500</pubDate>
+      <guid>http://localhost:1313/blog/my-first-post/</guid>
+      <description>Intro </description>
+    </item>
   </channel>
 </rss>
