@@ -31,7 +31,14 @@ params:
   profileMode:
     enabled: true
     title: "Hallo 👋🏽" # optional default will be site title
-    subtitle: "My name is Elias Tavarez.                        \nI am a data scientist in the Production AI team at **BASF** "
+    subtitle: |
+      My name is **Elias Tavarez** 
+
+      > I am a data scientist with the Production AI team at BASF
+
+      > Also, I'm working through my masters in data science at the UC Berkeley
+
+      > This is my personal site to showcase projects I've worked on during school and also to write about some of the things I find interesting or don't want to forget
     imageUrl: "home/me.png" # optional
     imageTitle: "Me as a dashing youth" # optional
     imageWidth: 250 # custom size
