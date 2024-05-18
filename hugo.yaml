@@ -1,0 +1,49 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Elias' Site
+theme: ["PaperMod"]
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+
+params:
+  profileMode:
+    enabled: true
+    title: "Hallo 👋🏽" # optional default will be site title
+    subtitle: "My name is Elias Tavarez.                        \nI am a data scientist in the Production AI team at **BASF** "
+    imageUrl: "home/me.png" # optional
+    imageTitle: "Me as a dashing youth" # optional
+    imageWidth: 250 # custom size
+    imageHeight: 250 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/elias-tavarez/"
+    - name: "Github"
+      url: "https://github.com/etav22"
